@@ -1,0 +1,58 @@
+Game Design Document: Project FOG: Fantasy Open Game
+
+1. Introduction/Overview
+
+Project FOG: Fantasy Open Game is an open-source action-adventure game set in a fantastical Middle-earth inspired world, blending neo-gothic architecture with lush, overgrown environments. Players take on the role of Earthlin, a resurrected hero tasked with saving the world from a mind-controlling substance known as the Compound of Doom. Developed using Blender for 3D modeling and O3DE (Open 3D Engine) as the game engine, Project FOG emphasizes exploration, combat, creature taming, and unraveling a mystery surrounding Earthlin's past and his connection to the alchemist who created the Compound.  Being an open-source project, community contribution is highly encouraged.
+
+2. Gameplay
+
+    Genre: Action-Adventure, Open World (elements), Creature Taming
+    Perspective: Third-person
+    Core Mechanics:
+        Exploration: Traverse a world inspired by the architecture of Prague, now overgrown and teeming with life. Discover hidden areas, ancient ruins, and resources.
+        Combat: Engage in fast-paced combat with corrupted mythical creatures. Utilize a combination of melee weapons (initially found, later crafted/upgraded) and Earthlin's unique abilities tied to his connection to nature.
+        Creature Taming: Instead of outright defeating all creatures, Earthlin can use his instinctive kindness to tame and befriend them. Tamed creatures can assist in combat, exploration, and puzzle-solving.
+        Puzzle Solving: Environmental puzzles that require the use of tamed creatures, manipulation of the environment, and understanding of ancient elven mechanisms.
+        Story Progression: Unravel the mystery of Earthlin's lineage, the history of the Compound of Doom, and the fate of the elves through narrative sequences, environmental storytelling, and interactions with the few remaining NPCs (Elves).
+        Crafting/Upgrades: Gather resources to craft and upgrade weapons, armor (made of leaves and wood), and items.
+
+3. Story and Setting
+
+    Setting: A Middle-earth inspired world, characterized by:
+        Neo-Gothic Architecture: Cities and ruins reminiscent of Prague, now reclaimed by nature. Buildings are covered in vines, moss, and integrated with the environment. These structures will be modeled in Blender and imported into O3DE.
+        Overgrown Environments: Lush forests, ancient trees, and vibrant flora dominate the landscape. O3DE's terrain tools and vegetation systems will be used to create these environments.
+        Cyborg Mythical Creatures: Mythical beasts corrupted by the Compound of Doom, exhibiting both organic and mechanical elements. Blender will be used to create the 3D models, incorporating both organic and mechanical details.
+    Characters:
+        Earthlin: The protagonist, resurrected with amnesia, embodies the lineage of human, animal, and elf. His armor is crafted from leaves and wood, reflecting his connection to nature. Blender will be used for character modeling and armor creation.
+        Chief Elf: The wise leader who revives Earthlin, placing his hopes in the prophecy. (Appears primarily in narrative sequences/flashbacks)
+        Mad Alchemist (Grandfather): The antagonist whose experiments unleashed the Compound of Doom. (Appears as a meta-neural image/boss fight)
+        Ancient Dragon: The first ruler of Earth, now controlled by the Compound of Doom. (Final Boss)
+        Elves: The few remaining elves, scattered and in hiding. Some may offer assistance or information to Earthlin.
+
+4. Art Style
+
+    Visual Style: A stylized, semi-realistic art style that captures the beauty of the overgrown environments and the grandeur of the neo-gothic architecture.
+    Character Design: Earthlin's leaf and wood armor should be visually striking and reflect his connection to nature. Cyborg creatures should have a blend of organic and mechanical elements, creating a sense of unease and corruption. Blender will be the primary tool for character and creature design.
+    Environment Design: Lush and vibrant environments with a focus on detail and verticality. The neo-gothic architecture should be integrated seamlessly with the natural world. Blender will be used for architectural asset creation, while O3DE will be used for world building and terrain sculpting.
+
+5. Level Design
+
+    Structure: A semi-open world structure allowing for exploration and discovery. Key locations (cities, ruins, forests) are interconnected. O3DE's level design tools will be used.
+    Focus: Environmental storytelling, puzzle integration, and opportunities for creature taming and combat encounters.
+
+6. Creatures
+
+    Design: A variety of mythical creatures (e.g., griffins, centaurs, ents, etc.) corrupted by the Compound of Doom. Each creature should have unique abilities and weaknesses. Blender will be used for modeling and rigging.
+    Taming: A core mechanic. Earthlin can tame creatures through acts of kindness and understanding, not brute force. Tamed creatures become allies.
+
+7. Music and Sound Design
+
+    Music: A blend of orchestral and folk music, creating a mystical and adventurous atmosphere.
+    Sound Design: Immersive sound effects that bring the world to life, from the rustling of leaves to the roars of corrupted creatures.
+
+8. Technical Considerations
+
+    Engine: O3DE (Open 3D Engine)
+    3D Modeling: Blender
+    Platforms: (Specify target platforms - e.g., PC, Consoles)
+    Open Source: Project FOG is an open-source project, and contributions are welcome. The source code and assets will be available on [GitHub/GitLab/etc. - specify where].
